@@ -424,6 +424,27 @@ footer {
   font-size: 0.875rem;
 }
 
+.github-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  color: #f1f5f9;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.github-stars:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
 .center {
   text-align: center;
 }
@@ -465,6 +486,7 @@ footer {
   box-shadow: 0 0 80px 20px rgba(99, 102, 241, 0.15);
   border-radius: 12px;
   overflow: hidden;
+  text-align: left;
 }
 
 .app-window {
@@ -834,6 +856,7 @@ footer {
   line-height: 1.6;
   max-height: 140px;
   overflow: auto;
+  text-align: left;
 }
 
 .response-body .line {

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern geometric troll yawning -->
+  <!-- Head - rounded square -->
+  <rect x="4" y="6" width="24" height="22" rx="8" fill="#6366f1"/>
+  <!-- Ears - triangular -->
+  <polygon points="4,10 0,2 8,8" fill="#6366f1"/>
+  <polygon points="28,10 32,2 24,8" fill="#6366f1"/>
+  <!-- Long droopy nose -->
+  <ellipse cx="16" cy="17" rx="3" ry="6" fill="#4f46e5"/>
+  <!-- Sleepy curved eyes -->
+  <path d="M7 11Q9 9 11 11" stroke="#020617" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M21 11Q23 9 25 11" stroke="#020617" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Wide yawn -->
+  <ellipse cx="16" cy="25" rx="6" ry="3" fill="#020617"/>
+</svg>

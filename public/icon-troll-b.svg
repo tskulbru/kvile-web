@@ -1,0 +1,15 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal troll silhouette yawning -->
+  <!-- Head shape with big nose -->
+  <path d="M6 14C6 8 10 4 16 4C22 4 26 8 26 14V20C26 24 22 28 16 28C10 28 6 24 6 20V14Z" fill="#6366f1"/>
+  <!-- Long troll nose -->
+  <path d="M16 10C18 10 20 12 20 16C20 20 18 22 16 22C14 22 14 20 14 16C14 12 14 10 16 10Z" fill="#4f46e5"/>
+  <!-- Sleepy eyes (closed) -->
+  <line x1="8" y1="12" x2="12" y2="12" stroke="#020617" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="12" x2="24" y2="12" stroke="#020617" stroke-width="2" stroke-linecap="round"/>
+  <!-- Yawning mouth -->
+  <ellipse cx="16" cy="25" rx="4" ry="3" fill="#020617"/>
+  <!-- Pointy ears -->
+  <path d="M6 12L2 6L8 10" fill="#6366f1"/>
+  <path d="M26 12L30 6L24 10" fill="#6366f1"/>
+</svg>

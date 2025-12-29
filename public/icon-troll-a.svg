@@ -1,0 +1,17 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple troll face yawning - round style -->
+  <!-- Head -->
+  <circle cx="16" cy="17" r="12" fill="#6366f1"/>
+  <!-- Big nose -->
+  <ellipse cx="16" cy="18" rx="4" ry="5" fill="#4f46e5"/>
+  <!-- Closed sleepy eyes - curved lines -->
+  <path d="M8 13Q10 11 12 13" stroke="#020617" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20 13Q22 11 24 13" stroke="#020617" stroke-width="2" stroke-linecap="round"/>
+  <!-- Yawning mouth - open oval -->
+  <ellipse cx="16" cy="25" rx="5" ry="4" fill="#020617"/>
+  <!-- Little ears/tufts -->
+  <circle cx="5" cy="10" r="3" fill="#6366f1"/>
+  <circle cx="27" cy="10" r="3" fill="#6366f1"/>
+  <!-- Tiny zzz -->
+  <path d="M26 4h3l-3 3h3" stroke="#22d3ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

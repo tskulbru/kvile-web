@@ -1,0 +1,8 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mountain with a resting ledge, plus a subtle code element -->
+  <path d="M4 26L14 8L18 16L24 8L28 26" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Resting ledge/platform -->
+  <line x1="10" y1="18" x2="18" y2="18" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Small dot representing resting point -->
+  <circle cx="14" cy="18" r="2" fill="#22d3ee"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal: Horizontal line (at rest) cradled by angle brackets -->
+  <path d="M4 10L10 16L4 22" stroke="#6366f1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 10L22 16L28 22" stroke="#6366f1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Resting horizontal line in the middle -->
+  <line x1="12" y1="16" x2="20" y2="16" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+</svg>

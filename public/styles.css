@@ -884,16 +884,147 @@ footer {
   opacity: 0.7;
 }
 
+@media (max-width: 1024px) {
+  .app-preview {
+    max-width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .app-sidebar {
+    width: 180px;
+  }
+}
+
 @media (max-width: 768px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
   }
 
   .nav-links {
     display: none;
   }
 
-  .stats {
-    gap: 2rem;
+  .hero {
+    min-height: auto;
+    padding: 100px 0 60px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-primary, .btn-secondary {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+
+  /* App Preview - hide sidebar on mobile */
+  .app-preview {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .app-sidebar {
+    display: none;
+  }
+
+  .app-content {
+    min-height: 300px;
+  }
+
+  .app-toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .current-request {
+    order: 3;
+    width: 100%;
+  }
+
+  .request-url {
+    font-size: 11px;
+  }
+
+  /* Features grid */
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  /* Comparison table */
+  .table-wrapper {
+    margin: 0 -1rem;
+    padding: 0 1rem;
+  }
+
+  table {
+    font-size: 0.75rem;
+  }
+
+  th, td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  /* Downloads */
+  .downloads {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+
+  /* Section spacing */
+  .section {
+    padding: 4rem 0;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  .footer-logo {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .container {
+    padding: 0 0.75rem;
+  }
+
+  .app-tabs .tab span:first-child {
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .app-editor, .response-body {
+    font-size: 11px;
+  }
+
+  .line-num {
+    width: 18px;
+    margin-right: 8px;
   }
 }

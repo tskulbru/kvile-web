@@ -398,28 +398,50 @@ footer {
   color: white;
 }
 
-.footer-family {
-  font-size: 0.75rem;
-  line-height: 1.8;
+.footer-col-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0.75rem;
 }
 
-.footer-family p {
+.footer-col ul {
+  list-style: none;
   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
 }
 
-.footer-family-label {
-  color: #6b7280;
-  margin-right: 0.25rem;
-}
-
-.footer-family a {
+.footer-col a {
   color: #9ca3af;
   text-decoration: none;
-  margin: 0 0.4rem;
+  font-size: 0.875rem;
 }
 
-.footer-family a:hover {
+.footer-col a:hover {
   color: white;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media (min-width: 769px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-main {
+    align-items: flex-start;
+  }
 }
 
 .footer-note {

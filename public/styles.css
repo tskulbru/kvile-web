@@ -398,6 +398,30 @@ footer {
   color: white;
 }
 
+.footer-family {
+  font-size: 0.75rem;
+  line-height: 1.8;
+}
+
+.footer-family p {
+  margin: 0;
+}
+
+.footer-family-label {
+  color: #6b7280;
+  margin-right: 0.25rem;
+}
+
+.footer-family a {
+  color: #9ca3af;
+  text-decoration: none;
+  margin: 0 0.4rem;
+}
+
+.footer-family a:hover {
+  color: white;
+}
+
 .footer-note {
   font-size: 0.875rem;
   color: #4b5563;
